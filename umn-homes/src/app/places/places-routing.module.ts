@@ -28,7 +28,7 @@ const routes: Routes = [
                 children: [
                     {
                         path: '',
-                        loadChildren: './places/offers/offers.module#OffersPageModule'
+                        loadChildren: './offers/offers.module#OffersPageModule'
                     },
                     {
                         path: 'new',
